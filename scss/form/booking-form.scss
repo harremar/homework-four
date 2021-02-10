@@ -1,0 +1,242 @@
+.booking-form {
+  // width: 820px;
+  width: 70%;
+  height: 890px;
+  margin: 0 auto;
+  padding-top: 50px;
+  //   background-color: grey;
+
+  .title {
+    font-family: prox;
+    font-size: 60px;
+  }
+
+  .row1 {
+    width: 100%;
+    height: 58px;
+    // background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: gill;
+    // padding-right: 20px;
+
+    .space1 {
+      // width: 344px;
+      width: 42%;
+      height: 58px;
+      //   background-color: aquamarine;
+      outline: 1px solid $site-blue;
+      // .text {
+      //   font-family: gill;
+      //   font-size: 18px;
+      //   padding: 20px;
+      // }
+      input {
+        text-decoration: none;
+        border: none;
+        font-family: gill;
+        font-size: 18px;
+        padding: 20px;
+        width: 100%;
+      }
+    }
+    .space2 {
+      // width: 453px;
+      width: 55%;
+      height: 58px;
+      //   background-color: aquamarine;
+      outline: 1px solid $site-blue;
+      // .text {
+      //   font-family: gill;
+      //   font-size: 18px;
+      //   padding: 20px;
+      // }
+      input {
+        text-decoration: none;
+        border: none;
+        font-family: gill;
+        font-size: 18px;
+        padding: 20px;
+        width: 100%;
+      }
+    }
+  }
+
+  .row2 {
+    // width: 820px;
+    width: 100%;
+    height: 58px;
+    // background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    // padding-top: 40px;
+
+    .space1 {
+      // width: 120px;
+      width: 16%;
+      height: 58px;
+      //   background-color: aquamarine;
+      font-family: gill;
+      font-size: 18px;
+      padding: 20px;
+    }
+    .space2 {
+      // width: 698px;
+      width: 85%;
+      height: 58px;
+      //   background-color: aquamarine;
+      font-family: gill;
+      font-size: 18px;
+      padding: 0 5px 0 5px;
+      display: flex;
+      justify-content: space-between;
+      outline: 1px solid $site-blue;
+
+      .enter {
+        width: 133px;
+        height: 58px;
+        // margin-right: 50px;
+        // background-color: brown;
+        // .text {
+        //   font-family: gill;
+        //   font-size: 18px;
+        //   padding: 20px;
+        // }
+        input {
+          text-decoration: none;
+          border: none;
+          font-family: gill;
+          font-size: 18px;
+          padding: 20px;
+          width: 533%;
+        }
+      }
+
+      .calendar {
+        width: 20px;
+        height: 20px;
+        background-image: url(../images/calendar.svg);
+        // background-color: brown;
+        margin: 20px;
+      }
+    }
+  }
+
+  .row3 {
+    // width: 820px;
+    width: 100%;
+    height: 58px;
+    // background-color: palevioletred;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .c1 {
+      // width: 225px;
+      width: 28%;
+      height: 58px;
+      //   background-color: aquamarine;
+      display: flex;
+      justify-content: space-between;
+
+      .person {
+        // width: 118px;
+        width: 52%;
+        height: 58px;
+        // background-color: burlywood;
+        font-family: gill;
+        font-size: 18px;
+        align-items: center;
+        padding: 20px;
+      }
+      .select {
+        // width: 103px;
+        width: 46%;
+        height: 58px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        outline: 1px solid $site-blue;
+
+        .number {
+          width: 20px;
+          height: 20px;
+          font-family: gill;
+          font-size: 18px;
+          // padding-right: 20px;
+          input {
+            width: 300%;
+            // height: 300%;
+            align-items: center;
+            font-family: gill;
+            font-size: 18px;
+            text-decoration: none;
+            border: none;
+            padding-bottom: 30px;
+          }
+
+          //   background-color: coral;
+        }
+        .arrow {
+          width: 20px;
+          height: 10px;
+          //   margin: 0 auto;
+          //   background-color: chartreuse;
+          background-image: url(../images/down-arrow.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .message {
+    // width: 818px;
+    width: 100%;
+    // height: 192px;
+    height: 22%;
+    // background-color: aquamarine;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: 1px solid $site-blue;
+
+    // .text {
+    //   font-family: gill;
+    //   font-size: 18px;
+    //   padding: 20px;
+    // }
+    input {
+      text-decoration: none;
+      border: none;
+      font-family: gill;
+      font-size: 18px;
+      padding: 20px;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 120px;
+    }
+  }
+
+  .submit {
+    // width: 818px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: $site-blue;
+    border-radius: 25px;
+    padding-top: 20px;
+
+    a {
+      text-decoration: none;
+      color: $site-white;
+      font-family: gill;
+      font-size: 15px;
+    }
+  }
+}

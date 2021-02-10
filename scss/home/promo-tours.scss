@@ -1,0 +1,188 @@
+.promo-tours {
+  // width: 1280px;
+  width: 100%;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  //   background-color: darkcyan;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  .promo {
+    height: 304px;
+    width: 236px;
+    background-color: bisque;
+
+    // ====================ISREAL======================
+    .isreal {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-01.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    // ========================USA=========================
+    .usa {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-02.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    // ======================AUSTRALIA===========================
+    .aust {
+      // height: 304px;
+      height: 100%;
+      // width: 236px;
+      width: 100%;
+      background-image: linear-gradient(
+          to right,
+          $overlay-black,
+          $overlay-black
+        ),
+        url(../images/tour/tour-03.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .text {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: $site-white;
+        // justify-content: space-between;
+
+        .top {
+          font-family: prox;
+          padding-bottom: 50px;
+          padding-top: 50px;
+          h1 {
+            // font-family: prox;
+            font-size: 60px;
+          }
+
+          p {
+            font-size: 30px;
+          }
+        }
+
+        .blue-button {
+          width: 133px;
+          height: 40px;
+          text-align: center;
+          margin: 0 auto;
+          background-color: $site-blue;
+          border-radius: 25px;
+          padding-top: 10px;
+
+          a {
+            text-decoration: none;
+            color: $site-white;
+            font-family: gill;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

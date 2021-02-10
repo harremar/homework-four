@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gill;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: prox;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.hero .hero-text {
+  padding-top: 50px;
+  width: 55%;
+  height: 60%;
+  margin: 0 auto;
+  color: #fff;
+}
+.hero .hero-text h1 {
+  text-align: center;
+  font-family: prox;
+  font-size: 60px;
+}
+.hero .hero-text p {
+  text-align: center;
+  font-family: gill;
+  font-size: 20px;
+}
+.hero .hero-text .blue-square {
+  width: 121px;
+  height: 40px;
+  margin: 35px auto;
+  background-color: #79addc;
+  display: flex;
+  align-items: center;
+}
+.hero .hero-text .blue-square a {
+  text-decoration: none;
+  font-family: gill;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.promo-tours {
+  width: 100%;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+  background-color: bisque;
+}
+.promo-tours .promo .isreal {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .promo .isreal .text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.promo-tours .promo .isreal .text .top {
+  font-family: prox;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.promo-tours .promo .isreal .text .top h1 {
+  font-size: 60px;
+}
+.promo-tours .promo .isreal .text .top p {
+  font-size: 30px;
+}
+.promo-tours .promo .isreal .text .blue-button {
+  width: 133px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #79addc;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+.promo-tours .promo .isreal .text .blue-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: gill;
+  font-size: 15px;
+}
+.promo-tours .promo .usa {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .promo .usa .text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.promo-tours .promo .usa .text .top {
+  font-family: prox;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.promo-tours .promo .usa .text .top h1 {
+  font-size: 60px;
+}
+.promo-tours .promo .usa .text .top p {
+  font-size: 30px;
+}
+.promo-tours .promo .usa .text .blue-button {
+  width: 133px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #79addc;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+.promo-tours .promo .usa .text .blue-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: gill;
+  font-size: 15px;
+}
+.promo-tours .promo .aust {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.promo-tours .promo .aust .text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.promo-tours .promo .aust .text .top {
+  font-family: prox;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.promo-tours .promo .aust .text .top h1 {
+  font-size: 60px;
+}
+.promo-tours .promo .aust .text .top p {
+  font-size: 30px;
+}
+.promo-tours .promo .aust .text .blue-button {
+  width: 133px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #79addc;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+.promo-tours .promo .aust .text .blue-button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: gill;
+  font-size: 15px;
+}
+
+nav {
+  width: 77%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+nav .links {
+  width: 54%;
+  height: 42px;
+  align-items: center;
+  display: flex;
+  font-family: gill;
+  font-size: 15px;
+  color: #79addc;
+}
+nav .links a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79addc;
+  display: flex;
+  align-items: center;
+}
+footer .fill {
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+footer .fill .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+footer .fill .copy-right {
+  font-family: gill;
+  font-size: 12px;
+  padding-top: 10px;
+  color: #fff;
+}
+footer .fill .social {
+  width: 115px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+footer .fill .social .facebook {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  background-image: url(../images/facebook.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+footer .fill .social .instagram {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  background-image: url(../images/instagram.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+footer .fill .social .twitter {
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  background-image: url(../images/twitter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.booking-form {
+  width: 70%;
+  height: 890px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.booking-form .title {
+  font-family: prox;
+  font-size: 60px;
+}
+.booking-form .row1 {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: gill;
+}
+.booking-form .row1 .space1 {
+  width: 42%;
+  height: 58px;
+  outline: 1px solid #79addc;
+}
+.booking-form .row1 .space1 input {
+  text-decoration: none;
+  border: none;
+  font-family: gill;
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+}
+.booking-form .row1 .space2 {
+  width: 55%;
+  height: 58px;
+  outline: 1px solid #79addc;
+}
+.booking-form .row1 .space2 input {
+  text-decoration: none;
+  border: none;
+  font-family: gill;
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+}
+.booking-form .row2 {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.booking-form .row2 .space1 {
+  width: 16%;
+  height: 58px;
+  font-family: gill;
+  font-size: 18px;
+  padding: 20px;
+}
+.booking-form .row2 .space2 {
+  width: 85%;
+  height: 58px;
+  font-family: gill;
+  font-size: 18px;
+  padding: 0 5px 0 5px;
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid #79addc;
+}
+.booking-form .row2 .space2 .enter {
+  width: 133px;
+  height: 58px;
+}
+.booking-form .row2 .space2 .enter input {
+  text-decoration: none;
+  border: none;
+  font-family: gill;
+  font-size: 18px;
+  padding: 20px;
+  width: 533%;
+}
+.booking-form .row2 .space2 .calendar {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/calendar.svg);
+  margin: 20px;
+}
+.booking-form .row3 {
+  width: 100%;
+  height: 58px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .row3 .c1 {
+  width: 28%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .row3 .c1 .person {
+  width: 52%;
+  height: 58px;
+  font-family: gill;
+  font-size: 18px;
+  align-items: center;
+  padding: 20px;
+}
+.booking-form .row3 .c1 .select {
+  width: 46%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  outline: 1px solid #79addc;
+}
+.booking-form .row3 .c1 .select .number {
+  width: 20px;
+  height: 20px;
+  font-family: gill;
+  font-size: 18px;
+}
+.booking-form .row3 .c1 .select .number input {
+  width: 300%;
+  align-items: center;
+  font-family: gill;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  padding-bottom: 30px;
+}
+.booking-form .row3 .c1 .select .arrow {
+  width: 20px;
+  height: 10px;
+  background-image: url(../images/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.booking-form .message {
+  width: 100%;
+  height: 22%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  outline: 1px solid #79addc;
+}
+.booking-form .message input {
+  text-decoration: none;
+  border: none;
+  font-family: gill;
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 120px;
+}
+.booking-form .submit {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #79addc;
+  border-radius: 25px;
+  padding-top: 20px;
+}
+.booking-form .submit a {
+  text-decoration: none;
+  color: #fff;
+  font-family: gill;
+  font-size: 15px;
+}
