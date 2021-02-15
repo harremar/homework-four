@@ -167,16 +167,19 @@
           height: 20px;
           font-family: gill;
           font-size: 18px;
+          border: none;
+          padding-bottom: 10px;
           // padding-right: 20px;
           input {
-            width: 300%;
-            // height: 300%;
+            width: 520%;
+            height: 300%;
             align-items: center;
             font-family: gill;
             font-size: 18px;
             text-decoration: none;
             border: none;
-            padding-bottom: 30px;
+            padding: 5px;
+            // padding-top: 20px;
           }
 
           //   background-color: coral;

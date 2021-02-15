@@ -418,15 +418,18 @@ footer .fill .social .twitter {
   height: 20px;
   font-family: gill;
   font-size: 18px;
+  border: none;
+  padding-bottom: 10px;
 }
 .booking-form .row3 .c1 .select .number input {
-  width: 300%;
+  width: 520%;
+  height: 300%;
   align-items: center;
   font-family: gill;
   font-size: 18px;
   text-decoration: none;
   border: none;
-  padding-bottom: 30px;
+  padding: 5px;
 }
 .booking-form .row3 .c1 .select .arrow {
   width: 20px;
