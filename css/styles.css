@@ -28,7 +28,7 @@ p {
   src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
 }
 .hero {
-  width: 100%;
+  max-width: 100%;
   height: 500px;
   margin: 0 auto;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
@@ -72,9 +72,10 @@ p {
 }
 
 .promo-tours {
-  width: 100%;
-  height: 304px;
+  max-width: 1280px;
+  min-height: 304px;
   margin: -50px auto 0 auto;
+  background-color: darkcyan;
   display: flex;
   justify-content: space-around;
   padding-left: 150px;
@@ -209,6 +210,17 @@ p {
   font-size: 15px;
 }
 
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    width: 236px;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .promo-tours .promo {
+    margin-bottom: 30px;
+  }
+}
 nav {
   width: 77%;
   height: 60px;
