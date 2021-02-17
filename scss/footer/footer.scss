@@ -1,7 +1,7 @@
 footer {
-  // width: 1280px;
-  width: 100%;
-  height: 100px;
+  max-width: 1280px;
+  // width: 100%;
+  min-height: 100px;
   margin: 0 auto;
   background-color: $site-blue;
   //   display: flex;
@@ -12,7 +12,7 @@ footer {
   align-items: center;
 
   .fill {
-    // width: 980px;
+    // max-width: 980px;
     width: 64%;
     display: flex;
     justify-content: space-between;
@@ -67,5 +67,17 @@ footer {
         background-size: cover;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .fill {
+    // width: 236px;
+    padding-top: 10px;
+    height: 170px;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
